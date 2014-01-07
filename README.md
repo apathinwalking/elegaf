@@ -1,4 +1,4 @@
-elegaf
+EleGaF
 ======
 
-Elementary Game Framework
+An [El]ementary [Ga]me [F]ramework written in Javascript
