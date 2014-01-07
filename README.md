@@ -1,6 +1,11 @@
-EleGaF
+EleGaF 
 ------
-An [El]ementary [Ga]me [F]ramework written in JavaScript.
-EleGaF is designed to provide the basic needs to run a simple video game: 
-1 A Game Engine
-2 
+A JavaScript Game Framework
+Introduction:
+------
+EleGaF (Elementary Game Framework) is a set of some of the basic componenets one needs in order to run a video game.  
+The following are features of EleGaF:  
+* Basic game loop  
+* Key listener  
+* Drawing stack  
+* Sprite handling
