@@ -1,4 +1,5 @@
-/** An "abstract class" for a console to print to the screen
+/**
+ * An "abstract class" for a console to print to the screen
  * @param {Object} ctx - the context
  * @param {Object} name - name it
  */
@@ -10,7 +11,8 @@ function Console(ctx, name){
     this.context.fillRect(0,0,this.context.canvas.width, this.context.canvas.height);
     this.writeTop();
 }
-/** Write to the context
+/**
+ * Write to the context
  * @param {Object} text - text to write
  */
 Console.prototype.write = function(text){
