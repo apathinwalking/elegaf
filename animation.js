@@ -37,10 +37,10 @@ Animation.prototype.getNextFrame = function(){
     //get the next frame from the spritesheet
     var next_frame = this.spritesheet.getFrame(this.row,this.current_col);
     //repeat the cycle
-    if(this.current_col == this.end_col){
+    this.current_col+=1;
+    if(this.current_col >= this.end_col){
         this.current_col = this.start_col;
     }
     //add one to the current_col
-    this.current_col+=1;
     return next_frame;
 };

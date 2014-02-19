@@ -1,2 +1,2 @@
-StartGame(30);
+StartGame(12);
 

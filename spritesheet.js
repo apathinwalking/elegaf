@@ -46,8 +46,6 @@ Spritesheet.prototype.getFrame = function(row,col){
     var x = col*this.frame_width;
     //y-position of top right of frame
     var y = row*this.frame_height;
-    C1.write(x);
-    C2.write(y);
     //draw the frame
     this.frame.drawImage(this.image,x,y,this.frame_width,this.frame_height,0,0,this.frame_width,this.frame_height);
     return this.frame;

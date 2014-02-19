@@ -37,10 +37,9 @@ Console.prototype.writeTop = function(){
     this.line+=1;
 };
 // Display console 1
-var C1 = new Console(document.getElementById("console1").getContext("2d"), "CONSOLE_1");
-var VP = document.getElementById("viewport").getContext("2d");
-// Display console 2
-var C2 = new Console(document.getElementById("console2").getContext("2d"), "CONSOLE_2");
+var C1 = new Console(document.getElementById("console1").getContext("2d"), "");
+C1.write("CHASE THAT DOG!!!!")
+C1.write("Use the right key to go go go!")
 
 
 
