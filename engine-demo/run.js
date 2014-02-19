@@ -1,0 +1,2 @@
+StartGame(12);
+
